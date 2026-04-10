@@ -72,7 +72,7 @@ export default function Index() {
               <span style={{ color: S.navy, fontFamily: "Cormorant, serif", fontWeight: 700, fontSize: 18 }}>К</span>
             </div>
             <div>
-              <div style={{ fontFamily: "Cormorant, serif", fontWeight: 700, color: S.goldL, fontSize: 18, lineHeight: 1.2 }}>Партия Копного Права</div>
+              <div style={{ fontFamily: "Cormorant, serif", fontWeight: 700, color: S.goldL, fontSize: 18, lineHeight: 1.2 }}>Голос Народа</div>
               <div style={{ fontSize: 10, color: `${S.gold}88`, letterSpacing: "0.25em", textTransform: "uppercase" }}>Народное самоуправление</div>
             </div>
           </div>
@@ -369,9 +369,9 @@ export default function Index() {
             <div style={{ width: 32, height: 32, borderRadius: "50%", background: S.gold, display: "flex", alignItems: "center", justifyContent: "center" }}>
               <span style={{ color: S.navy, fontFamily: "Cormorant, serif", fontWeight: 700 }}>К</span>
             </div>
-            <span style={{ fontFamily: "Cormorant, serif", color: `${S.gold}cc`, fontSize: 15 }}>Партия Копного Права</span>
+            <span style={{ fontFamily: "Cormorant, serif", color: `${S.gold}cc`, fontSize: 15 }}>Голос Народа</span>
           </div>
-          <div style={{ color: `${S.cream}44`, fontSize: 12 }}>© 2025 Партия Копного Права</div>
+          <div style={{ color: `${S.cream}44`, fontSize: 12 }}>© 2025 Голос Народа</div>
           <div style={{ display: "flex", gap: 20 }}>
             {["Устав", "Документы", "Конфиденциальность"].map(l => (
               <button key={l} style={{ color: `${S.cream}44`, fontSize: 12, background: "none", border: "none", cursor: "pointer" }}>{l}</button>
